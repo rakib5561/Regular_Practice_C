@@ -1,10 +1,18 @@
 #include<stdio.h>
 int main(){
 
-    int eng_num = 20;
-    int math_num = 40;
+    int english,math;
 
-    int total = eng_num + math_num;
-    printf("Total Number : %d", total);
+    //User input Massage
+    printf("Enter your English Marks : ");
+    scanf("%d", &english);
+
+
+    printf("Enter Your Math Marks : ");
+    scanf("%d", &math);
+
+    int total = english + math;
+    printf("Total Numbers : %d", total);
+
     return 0;
 }
