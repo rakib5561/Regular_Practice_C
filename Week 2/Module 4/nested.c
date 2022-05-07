@@ -5,6 +5,7 @@ int main(){
     scanf("%d %d", &a, &b);
 
     if(b != 0){
+        printf("Reminder is %d\n", a%b);
         if(a%b == 0){
             printf("%d is divisible by %d\n", a, b);
         }
